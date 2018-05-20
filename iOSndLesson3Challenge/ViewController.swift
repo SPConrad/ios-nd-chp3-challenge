@@ -33,10 +33,10 @@ class ViewController: UIViewController {
         
         currencyTextField.text = "$0.00"
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    @IBAction func sendLockSwitchChange(_ sender: UISwitch){
+        lockableTextFieldDelegate.lockOrUnlock(locked: sender.isOn, textField: lockableTextField)
     }
     
     @objc public func invalidEntry(_ message: String) {

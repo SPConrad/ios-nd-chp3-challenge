@@ -11,12 +11,13 @@ import UIKit
 
 class LockableTextFieldDelegate : NSObject, UITextFieldDelegate {
     
-    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
-        return true
-    }
-    
-    func textFieldDidBeginEditing(_ textField: UITextField) {
-        
+    public func lockOrUnlock(locked: Bool, textField: UITextField){
+        textField.isEnabled = !locked
+        if locked {
+            textField.backgroundColor = UIColor.gray
+        } else {
+            textField.backgroundColor = UIColor.white
+        }
     }
     
     
