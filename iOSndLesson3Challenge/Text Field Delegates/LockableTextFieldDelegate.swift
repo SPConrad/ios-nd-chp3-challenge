@@ -7,3 +7,18 @@
 //
 
 import Foundation
+import UIKit
+
+class LockableTextFieldDelegate : NSObject, UITextFieldDelegate {
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        return true
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        
+    }
+    
+    
+    
+}

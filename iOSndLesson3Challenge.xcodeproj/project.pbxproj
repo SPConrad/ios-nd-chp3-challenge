@@ -14,6 +14,9 @@
 		83B3447420B0A84E00959B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B3447220B0A84E00959B89 /* LaunchScreen.storyboard */; };
 		83B3447F20B0A84E00959B89 /* iOSndLesson3ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3447E20B0A84E00959B89 /* iOSndLesson3ChallengeTests.swift */; };
 		83B3448A20B0A84E00959B89 /* iOSndLesson3ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3448920B0A84E00959B89 /* iOSndLesson3ChallengeUITests.swift */; };
+		83B3449920B0BD6C00959B89 /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3449820B0BD6C00959B89 /* ZipCodeTextFieldDelegate.swift */; };
+		83B3449B20B0BEA100959B89 /* CurrencyTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3449A20B0BEA100959B89 /* CurrencyTextFieldDelegate.swift */; };
+		83B3449D20B0BEB800959B89 /* LockableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B3449C20B0BEB800959B89 /* LockableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		83B3448520B0A84E00959B89 /* iOSndLesson3ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSndLesson3ChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B3448920B0A84E00959B89 /* iOSndLesson3ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSndLesson3ChallengeUITests.swift; sourceTree = "<group>"; };
 		83B3448B20B0A84E00959B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83B3449820B0BD6C00959B89 /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		83B3449A20B0BEA100959B89 /* CurrencyTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDelegate.swift; sourceTree = "<group>"; };
+		83B3449C20B0BEB800959B89 /* LockableTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,7 @@
 		83B3446820B0A84C00959B89 /* iOSndLesson3Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				83B3449720B0ACB200959B89 /* Text Field Delegates */,
 				83B3446920B0A84C00959B89 /* AppDelegate.swift */,
 				83B3446B20B0A84C00959B89 /* ViewController.swift */,
 				83B3446D20B0A84C00959B89 /* Main.storyboard */,
@@ -123,6 +130,16 @@
 				83B3448B20B0A84E00959B89 /* Info.plist */,
 			);
 			path = iOSndLesson3ChallengeUITests;
+			sourceTree = "<group>";
+		};
+		83B3449720B0ACB200959B89 /* Text Field Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				83B3449820B0BD6C00959B89 /* ZipCodeTextFieldDelegate.swift */,
+				83B3449A20B0BEA100959B89 /* CurrencyTextFieldDelegate.swift */,
+				83B3449C20B0BEB800959B89 /* LockableTextFieldDelegate.swift */,
+			);
+			path = "Text Field Delegates";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B3446C20B0A84C00959B89 /* ViewController.swift in Sources */,
+				83B3449B20B0BEA100959B89 /* CurrencyTextFieldDelegate.swift in Sources */,
 				83B3446A20B0A84C00959B89 /* AppDelegate.swift in Sources */,
+				83B3449920B0BD6C00959B89 /* ZipCodeTextFieldDelegate.swift in Sources */,
+				83B3449D20B0BEB800959B89 /* LockableTextFieldDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "CurrencyTextFieldDelegate.textField(_:shouldChangeCharactersIn:replacementString:):CurrencyTextFieldDelegate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "stringArray[2].description">
+            </PersistentString>
+            <PersistentString
+               value = "charToReplace.description">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray[2] == &quot;.&quot;">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray.count - (validEnteredNumbers + offset)">
+            </PersistentString>
+            <PersistentString
+               value = "insertedCharacters">
+            </PersistentString>
+            <PersistentString
+               value = "stringArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "postDecOrCom">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
